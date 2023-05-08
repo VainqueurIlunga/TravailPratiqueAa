@@ -4,18 +4,18 @@ Nbr1=12 # est une valeur du type entier (int)
 Nbre2= 12.5 # est une variable du type float pour le reel
 Nom = "Ilunga" # variable du type Str
 led = True # variable du type boolean
-#une autre forme de declaration de trois variables differentes de deux type de donnée !=
+#une autre forme de declaration de trois variables differentes de deux type de donnï¿½e !=
 Nbr_1, Nbr_2, nom= 12, 15.2, "Vainqueur" 
-#une fonction qui permet d'afficher un message ou la valeur d'une variable à l'ecran
+#une fonction qui permet d'afficher un message ou la valeur d'une variable ï¿½ l'ecran
 
 #======================================================================================================
-# la fonction print() est une fonction qui peux prendre plusieur arguments de tous les types de donnée
+# la fonction print() est une fonction qui peux prendre plusieur arguments de tous les types de donnï¿½e
 #======================================================================================================
 print(Nbr_1, Nbr_2, nom) 
-#les variables ou les messsage peuvent etre separé soit par ;
+#les variables ou les messsage peuvent etre separï¿½ soit par ;
 # une virgule (,)
 # le symbole d'addition (+), 
-#l'utilisation de (+) entre les Str appelé concatenation
+#l'utilisation de (+) entre les Str appelï¿½ concatenation
 postnom = "Mutambayi"
 salutation = "Hey"
 print(salutation + " " + postnom)
@@ -24,14 +24,14 @@ age= 18
 # nous allons utiliser la fonction Str qui permet de convertir(caster) une variable du type int ou float en Str
 # nous utilisons le sasting car il est impossible de d'additionner un int a un Str
 print(salutation + " " + postnom + " "+str(age) + " "+ "ans") 
-# NB: si vous n'ajouter pas d'espace entre les variables les variables seront collées l'une apres l'autre
+# NB: si vous n'ajouter pas d'espace entre les variables les variables seront collï¿½es l'une apres l'autre
 print(salutation + postnom +str(age)) 
 
 # utilisation de la virgule est simple a utiliser
 print(salutation, postnom, str(age)) 
 
 # la conversion de type de variable 
-# str(), int(), float(), la fonction Str() est deja utilisé
+# str(), int(), float(), la fonction Str() est deja utilisï¿½
 x_string="123" # la variable x contient 123 et non cent vingt trois
 y_string= "14.5" 
 # pour calculer la somme de deux variable il faut le convertir en un type calculable soit int ou float
@@ -64,7 +64,7 @@ print(div_float)
 print(div_int)
 print(puissance)
 # les operateurs logiques en python: et=and; ou=or, non = not
-# ces operateurs serons mieux detaillé lors de la structure conditionnelle
+# ces operateurs serons mieux detaillï¿½ lors de la structure conditionnelle
 # structure de comparaison : <=, <, >=, >, ==
 print(nbre1<=nbre2) # nous aurons un resultat du type boolean
 print(nbre1<nbre2)
@@ -75,7 +75,7 @@ print(nbre1==nbre2)
 # la fonction input, elle permet de recuperer la valeur saisie par l'utilisateur 
 # NB: toute valeur qui viens de la fonction input est du type Str, pour recuperer une valeur du type int ou float nous devont utiliser la fonction int ou float
 nom_ville=input("Entrer votre villle: ")
-num_parcelle=int(input("Entrer le numero de la parcelle: "))# premier façon
+num_parcelle=int(input("Entrer le numero de la parcelle: "))# premier faï¿½on
 num_telephon=input("Entrer votre numero de telephone: ")
 print(type(num_telephon))#la fonction type permet de savoir le type de la valeur
 num_telephon=int(num_telephon)

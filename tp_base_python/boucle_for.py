@@ -40,5 +40,5 @@ for index,  mois in enumerate(liste_mois):
 for i in range(1,13): # une table de multiplication qui va jusqu'a 12
     for j in range(1,11):# de 1 à 10
         print(f"{j} x {i} = {j*i}")
-        
+         
     
