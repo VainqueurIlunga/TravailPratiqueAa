@@ -161,6 +161,12 @@ for mois, jour in zip(t2, t1):
     print(mois, jour)
 
 
+# le slicing sur une liste imbriquée
+liste_cote= [20,25,36]
+liste_nom = ["franck","bea", "tegra"]
+print
+
+
 
 
 

@@ -92,6 +92,13 @@ print(liste_telephone)
 
 liste_telephone.reverse()
 print(liste_telephone)
+def check_password():
+    mot = "1234"
+    while  mot != True:
+        mot_=input("entrer le mot de passe: ")
+        if mot == mot_:
+            print("bienvenue!")
+        break
 
 
 

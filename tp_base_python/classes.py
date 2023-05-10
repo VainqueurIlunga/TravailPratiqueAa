@@ -62,3 +62,47 @@ class MaFamille:
 fils1= MaFamille("Kabasele", "Achille", 2004)
 # utiliser la methode salutation
 fils1.salutation()
+
+#======================
+# Notion de l'heritage
+#======================
+class Appareil:
+    def __init__(self, c_nom, c_marque, c_couleur):
+        self.nom = c_nom
+        self.marque = c_marque
+        self.couleur = c_couleur
+    
+    def PresenterAppareil(self):
+        print(f"{self.nom}")
+        print(f"{self.couleur}")
+        print(f"{self.marque}")
+
+class Ordinateur(Appareil):
+    def __init__(self, c_nom, c_marque, c_couleur, c_hdd, c_cpu):
+        Appareil().__init__(c_nom, c_marque, c_couleur)
+        self.hdd = c_hdd
+        self.cpu = c_cpu
+    
+    def AfficherOrdi(self):
+        print(f" nom: {self.nom},  marque:{self.marque} processeur:{self.cpu} disque:{self.hdd} couleur:{self.couleur}")
+
+#ord1= Ordinateur("fim ","Dell","noir", "sata", "i5")
+ord2= Appareil(Ordinateur("fim ","Dell","noir", "sata", "i5"))
+ord2.PresenterAppareil()
+    
+#=============================
+#POO dans l'auditoire
+#=======================
+class Vehicule:
+    nom_vehicule : str
+    def __init__(self, v_nom, v_couleur, v_marque):
+        self.nom = v_nom
+        self.couleur = v_marque
+        self.marque = v_couleur
+    
+    def afficher(self):
+        print(f"c'est le vehicule {self.nom} {self.marque} {self.couleur}")
+        
+
+v1= Vehicule("prado","bleu","toyota")
+v1.afficher()

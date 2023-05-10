@@ -9,7 +9,7 @@ Created on Wed May  3 13:12:46 2023
 #==================
 # la boucle while fait la condition et la repetion en meme temps, donc tant que la condition est répetée le bloc d'instruction va se repeté
 
-a =0 # on initialiser la variable à 0
+a = 0 # on initialiser la variable à 0
 while a < 10: # la condition a respecter
     print("salut les genies") # le programme va afficher 10 fois le message
     print(a) # le programme affichera 10 variable de 0 a n-1,
@@ -43,3 +43,10 @@ total= len(jours_semaine)# cette methode nous a permi de connaitre le nombre d'e
 while jour < total:
     print(f"les jours du week-end avec la boucle while: {jours_semaine[jour]}")
     jour +=1
+
+mot = "1234"
+while  mot != True:
+    mot_=input("entrer le mot de passe: ")
+    if mot == mot_:
+        print("bienvenue!")
+    

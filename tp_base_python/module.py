@@ -25,3 +25,5 @@ print(statistics.mean(liste_cote))# il va additionné toutes les valeur et le di
 tuples_nom=("fim", "franck", "ilunga", "vainqueur")
 print(random.choice(tuples_nom))# il va affiché un nom aléatoirement
 print(random.choice(liste_cote))# il affichera une cote aléatoirement
+from datetime import datetime
+print(datetime.now())
